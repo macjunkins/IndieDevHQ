@@ -1,0 +1,42 @@
+# VS Code
+.vscode/
+
+# JetBrains IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Build Artifacts (Common across IDEs)
+/dist/
+/build/
+/out/
+
+# Node.js Modules (if applicable)
+node_modules/
+
+# Python Virtual Environments (if applicable)
+.venv/
+__pycache__/
+
+# Operating System Files
+.DS_Store  # macOS
+Thumbs.db # Windows
+
+# Obsidian Specific (if using with Obsidian)
+.obsidian/cache/
+.obsidian/notes/attachments/
+
+# General Generated Files
+*.log
+*.tmp
+*~  # Backup files created by some editors
+
+# Editor/IDE Specific Temporary Files (Less Common)
+*.swp # Vim swap files
+*.bak # Backup files
+
+# Compiled Language Files (Add as needed)
+# *.class  # Java class files
+# *.pyc # Python compiled files
+
