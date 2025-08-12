@@ -1,0 +1,49 @@
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# VS Code settings
+.vscode/
+*.code-workspace
+
+# Zed editor settings
+.zed/
+
+# Obsidian settings and cache
+.obsidian/
+.obsidian-workspace
+.obsidian-*
+
+# Node modules (if any scripts/tools)
+node_modules/
+
+# Logs
+*.log
+
+# Backup files
+*~
+*.swp
+*.swo
+*.bak
+
+# Thumbnails
+._*
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Python virtual environments (if used)
+.venv/
+venv/
+__pycache__/
+
+# Markdown preview caches (common in docs)
+.markdown-preview/
+
+# Ignore output folders
+dist/
+build/
+out/
