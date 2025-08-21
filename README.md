@@ -13,8 +13,8 @@ A comprehensive methodology framework for AI-augmented solo development. Empower
 
 ## Technology Focus
 
-Primary: Tauri + Rust for cross-platform desktop applications  
-Secondary: Swift for Apple ecosystem, modern web frameworks
+Primary: Swift for Apple ecosystem, modern web frameworks  
+Secondary: Tauri + Rust for cross-platform desktop applications
 Linux Systems coming Soon!
 
 Each project maintains independent lifecycle and GitHub presence while following IndieDevHQ methodology patterns.
