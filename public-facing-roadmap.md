@@ -124,36 +124,114 @@ git branch -M main
 
 **Status: ✅ PARTIALLY COMPLETED** - Core features enabled, advanced features pending
 
-### Phase 3: Documentation Enhancement (2-3 days)
+### Phase 3: Documentation Enhancement (MKDocs Implementation)
 
-**Priority: High**
+**Priority: High** - **Implementation Strategy: MKDocs Documentation Site**
 
-#### 3.1 Public-Facing Documentation
-**New files needed:**
-- `README.md` - Rewrite as marketing/onboarding document
-- `GETTING_STARTED.md` - Step-by-step setup guide for new users
-- `EXAMPLES.md` - Real-world use cases and success stories
-- `ROADMAP.md` - Public development roadmap and feature plans
-- `FAQ.md` - Enhance existing FAQ for community use
+#### 3.1 MKDocs Site Implementation
+**Primary Objective:** Transform IndieDevHQ into a clean, searchable MKDocs site that positions it as the definitive community methodology framework for AI-augmented solo developers.
 
-#### 3.2 Documentation Structure
+**Key Benefits:**
+- Professional, searchable documentation site
+- GitHub Pages deployment for community discoverability
+- Structured navigation aligned with methodology framework goals
+- Maintains raw content in repo while publishing clean docs
+
+#### 3.2 MKDocs Structure Implementation
 ```
 /
-├── README.md (Public marketing/overview)
-├── GETTING_STARTED.md (New user onboarding)
-├── EXAMPLES.md (Real-world use cases)
-├── ROADMAP.md (Development roadmap)
-├── CONTRIBUTING.md (Contribution guidelines)
-├── LICENSE (MIT License)
-├── indie-dev-methodologies/ (Core framework)
-└── .github/ (GitHub templates and workflows)
+├── mkdocs.yml (Site configuration)
+├── requirements.txt (MKDocs dependencies)
+├── docs/ (Published documentation)
+│   ├── index.md (Home - from README.md)
+│   ├── about.md
+│   ├── roadmap.md (from public-facing-roadmap.md)
+│   ├── contribute.md (from CONTRIBUTING.md)
+│   ├── code-of-conduct.md (from CODE_OF_CONDUCT.md)
+│   ├── methodologies/
+│   │   ├── _index.md
+│   │   └── methodology-template.md
+│   ├── playbooks/
+│   │   ├── _index.md
+│   │   ├── prompting/
+│   │   │   ├── claude.md (from CLAUDE.md)
+│   │   │   ├── chatgpt.md
+│   │   │   └── copilot.md
+│   │   └── coding/
+│   │       ├── refactor-small-changes.md
+│   │       └── ai-arch-brainstorming.md
+│   ├── patterns/
+│   │   ├── _index.md
+│   │   ├── ai-integration-patterns.md
+│   │   └── local-vs-cloud.md
+│   ├── templates/
+│   │   ├── _index.md
+│   │   └── project/
+│   │       ├── tauri-rust.md
+│   │       ├── swift-app.md
+│   │       └── web-app.md
+│   ├── automation/
+│   │   ├── _index.md
+│   │   ├── repo-setup.md
+│   │   ├── doc-generation.md
+│   │   └── github-integration.md
+│   ├── standards/
+│   │   ├── _index.md
+│   │   ├── quality-checklist.md
+│   │   └── documentation-standards.md
+│   └── resources/
+│       ├── _index.md
+│       ├── toolchain.md
+│       └── reading-list.md
+├── .github/workflows/mkdocs.yml (GitHub Pages CI)
+├── indie-dev-methodologies/ (Source content - preserved)
+├── dev-notebooks/ (Raw notes - preserved but not published)
+└── session-logs/ (Raw logs - preserved but not published)
 ```
 
-#### 3.3 Content Strategy
-- Position as "Community Framework" not personal methodology
-- Include diverse examples beyond single developer use
-- Add testimonials and success stories (when available)
-- Create clear value proposition for different user types
+#### 3.3 Implementation Steps
+**Step 1: Core Infrastructure (2-4 hours)**
+- Create `mkdocs.yml` with Material theme configuration
+- Set up `docs/` directory structure
+- Create `requirements.txt` for dependencies
+- Configure GitHub Pages CI workflow
+
+**Step 2: Content Migration (6-10 hours)**
+- Migrate existing content to structured docs format:
+  - README.md → docs/index.md (rewrite as marketing/onboarding)
+  - public-facing-roadmap.md → docs/roadmap.md
+  - CONTRIBUTING.md → docs/contribute.md
+  - CODE_OF_CONDUCT.md → docs/code-of-conduct.md
+  - CLAUDE.md → docs/playbooks/prompting/claude.md
+- Extract methodology content from `indie-dev-methodologies/` into docs structure
+- Cherry-pick evergreen content from `dev-notebooks/` into docs/resources/
+
+**Step 3: Content Enhancement (4-8 hours)**
+- Create methodology template following established patterns
+- Write AI integration patterns documentation
+- Develop project templates for Tauri, Swift, and web apps
+- Document automation scripts and GitHub integration guides
+- Create quality standards and checklists
+
+**Step 4: Site Optimization (2-4 hours)**
+- Configure search and tagging system
+- Set up navigation tabs and sections
+- Add social links and GitHub integration
+- Test local preview and build process
+
+#### 3.4 Content Strategy (MKDocs-Optimized)
+- **Community Framework Positioning**: Position as definitive resource for AI-augmented solo development
+- **Searchable Knowledge Base**: Tag-based organization for easy discovery
+- **Copy-Ready Content**: One method per page with actionable steps
+- **Tool-Agnostic Approach**: Focus on patterns and principles over specific tools
+- **Quality Standards**: Consistent methodology template with quality checklists
+
+#### 3.5 GitHub Pages Deployment
+**Automated CI/CD Pipeline:**
+- Zero-click deployments on push to main branch
+- Strict build validation to catch errors
+- GitHub Pages hosting at `https://macjunkins.github.io/IndieDevHQ/`
+- Professional presentation for community adoption
 
 ### Phase 4: Community Features (1-2 days)
 
@@ -197,9 +275,11 @@ git branch -M main
 - Create contributor onboarding materials
 
 **Optional Enhancements:**
-- GitHub Pages site for better discoverability
+- ✅ GitHub Pages site via MKDocs (integrated into Phase 3)
 - Integration with existing developer community platforms
 - Blog post or article about the methodology
+- Social cards and analytics integration
+- Versioned documentation system
 
 ## Implementation Checklist
 
@@ -213,11 +293,11 @@ git branch -M main
 - [x] Set up GitHub repository with proper settings ✅ COMPLETED
 
 ### Community Preparation
-- [ ] Create CONTRIBUTING.md guidelines
+- [x] Create CONTRIBUTING.md guidelines ✅ COMPLETED
 - [ ] Set up GitHub Discussions
 - [ ] Configure issue templates
-- [ ] Write GETTING_STARTED.md guide
-- [ ] Prepare EXAMPLES.md with use cases
+- [ ] Implement MKDocs documentation site
+- [ ] Set up GitHub Pages deployment
 - [ ] Set up basic GitHub Actions
 
 ### Launch Readiness
@@ -233,7 +313,7 @@ git branch -M main
 
 - Phase 1: ✅ COMPLETED (8-12h estimated, 4h actual) - Aug 12, 2025
 - Phase 2: ✅ COMPLETED (6-10h estimated, 3h actual) - Aug 12, 2025
-- Phase 3: **IN PROGRESS** (16-24h estimated) - Due: Aug 15, 2025
+- Phase 3: **IN PROGRESS** (14-26h estimated, MKDocs implementation) - Due: Aug 15, 2025
 - Phase 4: READY (12-18h estimated) - Due: Aug 17, 2025  
 - Phase 5: PLANNED (8-12h estimated) - Due: Aug 19, 2025
 
