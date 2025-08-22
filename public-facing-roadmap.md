@@ -2,20 +2,22 @@
 
 This roadmap outlines the necessary steps to transform the IndieDevHQ repository from its current local/personal workspace state into a public-facing community resource for indie developers.
 
-## 🚀 Current Status (Updated: August 12, 2025)
+## 🚀 Current Status (Updated: August 22, 2025)
 
 **Repository:** https://github.com/macjunkins/IndieDevHQ  
-**Phase:** 3 (Documentation Enhancement) - **IN PROGRESS**  
-**Milestones Created:** 3 phases with due dates  
-**Issues Created:** 12 total (6 for Phase 3, 6 for Phase 4)  
-**Next Action:** Begin Phase 3 documentation work
+**Phase:** 3 (Documentation Enhancement) - **IN PROGRESS** (2/9 completed - 22%)  
+**Milestones Created:** 4 phases with due dates (GitHub Milestones 1-4)  
+**Issues Created:** 31 total (9 for Phase 3, 19 for Phase 4, 3 for Phase 5, 3 for AI Ops)  
+**Next Action:** Continue Phase 3 documentation work - 7 issues remaining
 
 ### Recent Accomplishments
 - ✅ **Phase 1 & 2 Complete** - Repository cleaned and published to GitHub
 - ✅ **80 files committed** with 18,334+ lines of methodology content
 - ✅ **Standard OSS files added** - LICENSE, CONTRIBUTING.md, CODE_OF_CONDUCT.md
 - ✅ **GitHub features configured** - Discussions enabled, topics added, templates created
-- ✅ **Project management setup** - Milestones and issues created for remaining work
+- ✅ **Project management setup** - 4 milestones and 31 issues created for comprehensive tracking
+- ✅ **Phase 3 Progress** - README.md (#1) and ROADMAP.md (#4) completed
+- ✅ **Quality Improvements** - Bug fixes and automation enhancements ongoing
 
 ### ⏱️ Time Estimation Philosophy
 **Target Audience:** Junior programmer unfamiliar with language/codebase  
@@ -124,9 +126,11 @@ git branch -M main
 
 **Status: ✅ PARTIALLY COMPLETED** - Core features enabled, advanced features pending
 
-### Phase 3: Documentation Enhancement (MKDocs Implementation)
+### Phase 3: Documentation Enhancement (GitHub Milestone #1)
 
-**Priority: High** - **Implementation Strategy: MKDocs Documentation Site**
+**Priority: High** - **Status: IN PROGRESS (2/9 issues completed - 22%)**  
+**Due Date:** August 15, 2025  
+**Implementation Strategy:** MKDocs Documentation Site + Core Documentation
 
 #### 3.1 MKDocs Site Implementation
 **Primary Objective:** Transform IndieDevHQ into a clean, searchable MKDocs site that positions it as the definitive community methodology framework for AI-augmented solo developers.
@@ -233,46 +237,71 @@ git branch -M main
 - GitHub Pages hosting at `https://macjunkins.github.io/IndieDevHQ/`
 - Professional presentation for community adoption
 
-### Phase 4: Community Features (1-2 days)
+### Phase 4: Community Features (GitHub Milestone #2)
 
-**Priority: Medium**
+**Priority: Medium** - **Status: READY (0/19 issues completed)**  
+**Due Date:** August 17, 2025
 
-#### 4.1 GitHub Discussions Setup
-**Categories:**
-- General (Community discussion)
-- Ideas (Feature requests and improvements)
-- Q&A (Help and support)
-- Show and tell (Community projects using IndieDevHQ)
+#### 4.1 GitHub Discussions & Community Setup
+- #7 Set up GitHub Discussions categories
+- #25 Community: Pin a Welcome Discussion (links to Getting Started)
+- #8 Enhance issue templates for community use
+- #22 Labels: Seed and document standard labels
+- #26 Docs: Add README badges (License, PRs welcome, Discussions, CI, Scorecard)
 
-#### 4.2 Issue Templates
-- Bug Report Template
-- Feature Request Template
-- Documentation Improvement Template
-- Community Resource Template
+#### 4.2 Quality & Security Infrastructure  
+- #9 Set up GitHub Actions for documentation validation
+- #10 Implement automated issue labeling
+- #11 Create community interaction automation
+- #12 Configure repository security and branch protection
+- #13 CI: Add Markdown lint workflow
+- #14 CI: Add Link Checker workflow
+- #15 CI: Add ShellCheck for scripts
+- #16 CI: Python lint/format (ruff + black)
+- #17 Security: Add OpenSSF Scorecard + badge
 
-#### 4.3 Automation Setup
-**GitHub Actions:**
-- Documentation link validation
-- Markdown linting and formatting
-- Automated issue labeling
-- Community interaction automation
+#### 4.3 Developer Experience & Governance
+- #18 DevX: Add pre-commit hooks and docs
+- #19 Governance: Add SECURITY.md (disclosure policy)
+- #20 Governance: Add CODEOWNERS and MAINTAINERS.md
+- #21 Support: Add SUPPORT.md and (optional) FUNDING.yml
+- #24 Repository Template: Enable template and add README instructions
 
-### Phase 5: Launch Preparation (1-2 days)
+### Phase 5: Launch Preparation (GitHub Milestone #3)
 
-**Priority: Medium**
+**Priority: Medium** - **Status: READY (0/3 issues completed)**  
+**Due Date:** August 19, 2025
 
-#### 5.1 Final Review and Testing
+#### 5.1 Final Quality & Testing
+- #28 Scripts: Fix check-conformity.sh success counter bug
+- #27 Housekeeping: Purge tracked .DS_Store and tighten .gitignore
 - Test all automation scripts in clean environment
 - Validate documentation accuracy and completeness
-- Ensure all personal references removed
 - Review content for community appropriateness
 
-#### 5.2 Launch Strategy
-**Preparation:**
+#### 5.2 Release Preparation
+- #23 Release: Add CHANGELOG.md and release-drafter
 - Draft launch announcement
 - Identify community channels for promotion (Reddit, Twitter, dev communities)
 - Prepare initial content for GitHub Discussions
 - Create contributor onboarding materials
+
+### Phase 6: AI Ops & Repository Hygiene (GitHub Milestone #4)
+
+**Priority: High** - **Status: IN PROGRESS (1/3 issues completed - 33%)**  
+**Due Date:** August 19, 2025  
+**Focus:** Improvements to AI-facing guidance and repository hygiene
+
+#### 6.1 AI Operations Improvements
+- ✅ #39 [Bug] Cannot template files - **COMPLETED**
+- #31 Expand CLAUDE.md with AI Ops Playbook and prerequisites
+- #33 Tune check-conformity.sh severity and guidance
+- #32 Add minimal CI to run repository checks
+
+#### 6.2 Repository Quality
+- Root README.md for onboarding and conformity
+- Clarify CLAUDE.md operational guidance
+- Basic CI checks for repository health
 
 **Optional Enhancements:**
 - ✅ GitHub Pages site via MKDocs (integrated into Phase 3)
@@ -289,16 +318,17 @@ git branch -M main
 - [x] Remove personal documents and configurations ✅ COMPLETED
 - [ ] Test all automation scripts
 - [x] Create LICENSE file ✅ COMPLETED
-- [ ] Write public-facing README.md
+- [x] Write public-facing README.md ✅ COMPLETED (#1)
 - [x] Set up GitHub repository with proper settings ✅ COMPLETED
 
 ### Community Preparation
 - [x] Create CONTRIBUTING.md guidelines ✅ COMPLETED
-- [ ] Set up GitHub Discussions
-- [ ] Configure issue templates
-- [ ] Implement MKDocs documentation site
-- [ ] Set up GitHub Pages deployment
-- [ ] Set up basic GitHub Actions
+- [x] Create public development ROADMAP.md ✅ COMPLETED (#4)
+- [ ] Set up GitHub Discussions (#7)
+- [ ] Configure enhanced issue templates (#8)
+- [ ] Implement MKDocs documentation site (#29)
+- [ ] Set up comprehensive GitHub Actions (multiple issues)
+- [ ] Add community badges and documentation (#26)
 
 ### Launch Readiness
 - [ ] Final content review for personal information
@@ -308,14 +338,16 @@ git branch -M main
 
 ## Timeline Estimate
 
-**Total Time Estimate: 42-66 hours** (Junior dev in unfamiliar codebase)
-**Actual Time So Far: 7 hours** (Phases 1-2 complete)
+**Total Time Estimate: 50-75+ hours** (Junior dev in unfamiliar codebase) - *Expanded scope*  
+**Actual Time So Far: 10+ hours** (Phases 1-2 complete, Phase 3 & 6 in progress)  
+**GitHub Issues Tracking: 31 total issues across 4 milestones**
 
 - Phase 1: ✅ COMPLETED (8-12h estimated, 4h actual) - Aug 12, 2025
 - Phase 2: ✅ COMPLETED (6-10h estimated, 3h actual) - Aug 12, 2025
-- Phase 3: **IN PROGRESS** (14-26h estimated, MKDocs implementation) - Due: Aug 15, 2025
-- Phase 4: READY (12-18h estimated) - Due: Aug 17, 2025  
-- Phase 5: PLANNED (8-12h estimated) - Due: Aug 19, 2025
+- Phase 3: **IN PROGRESS** (9 issues, 2 completed - 22% done) - Due: Aug 15, 2025
+- Phase 4: READY (19 issues, comprehensive community features) - Due: Aug 17, 2025  
+- Phase 5: READY (3 issues, launch preparation) - Due: Aug 19, 2025
+- Phase 6: **IN PROGRESS** (3 issues, AI ops & hygiene, 1 completed - 33% done) - Due: Aug 19, 2025
 
 **Note:** Time estimates assume junior programmer unfamiliar with codebase/tools. Experienced developers may complete tasks 50-75% faster.
 
