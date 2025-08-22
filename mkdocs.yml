@@ -58,9 +58,9 @@ nav:
   - Home: index.md
   - About: about.md
   - Methodologies:
-      - methodologies/_index.md
+      - methodologies/index.md
   - Playbooks:
-      - playbooks/_index.md
+      - playbooks/index.md
       - Prompting:
           - Claude: playbooks/prompting/claude.md
           - ChatGPT: playbooks/prompting/chatgpt.md
@@ -69,26 +69,26 @@ nav:
           - Small, Safe Refactors: playbooks/coding/refactor-small-changes.md
           - AI Architecture Brainstorming: playbooks/coding/ai-arch-brainstorming.md
   - Patterns:
-      - patterns/_index.md
+      - patterns/index.md
       - AI Integration Patterns: patterns/ai-integration-patterns.md
       - Local vs Cloud AI: patterns/local-vs-cloud.md
   - Templates:
-      - templates/_index.md
+      - template_docs/index.md
       - Project:
-          - Tauri + Rust: templates/project/tauri-rust.md
-          - Swift App: templates/project/swift-app.md
-          - Web App: templates/project/web-app.md
+          - Tauri + Rust: template_docs/project/tauri-rust.md
+          - Swift App: template_docs/project/swift-app.md
+          - Web App: template_docs/project/web-app.md
   - Automation:
-      - automation/_index.md
+      - automation/index.md
       - Repo Setup: automation/repo-setup.md
       - Doc Generation: automation/doc-generation.md
       - GitHub Integration: automation/github-integration.md
   - Standards:
-      - standards/_index.md
+      - standards/index.md
       - Quality Checklist: standards/quality-checklist.md
       - Documentation Standards: standards/documentation-standards.md
   - Resources:
-      - resources/_index.md
+      - resources/index.md
       - Toolchain: resources/toolchain.md
       - Reading List: resources/reading-list.md
   - Contribute: contribute.md

@@ -17,8 +17,8 @@ IndieDevHQ is designed for solo developers who want to:
 
 Choose your path based on your current needs:
 
-1. **📱 Ship a new app** → Start with [Templates](templates/project/tauri-rust.md) for scaffolding
-2. **⚡ Improve your workflow** → Explore [Methodologies](methodologies/_index.md) for systematic approaches  
+1. **📱 Ship a new app** → Start with [Templates](template_docs/project/tauri-rust.md) for scaffolding
+2. **⚡ Improve your workflow** → Explore [Methodologies](methodologies/index.md) for systematic approaches  
 3. **🤖 Learn AI patterns** → Discover [Patterns](patterns/ai-integration-patterns.md) for effective AI integration
 
 ## Core Features
@@ -37,10 +37,10 @@ Choose your path based on your current needs:
 
 ## Quick Start
 
-1. Browse [Methodologies](methodologies/_index.md) to understand the framework
-2. Check out [Playbooks](playbooks/_index.md) for specific AI workflows
-3. Use [Templates](templates/_index.md) to scaffold new projects
-4. Follow [Standards](standards/_index.md) for quality assurance
+1. Browse [Methodologies](methodologies/index.md) to understand the framework
+2. Check out [Playbooks](playbooks/index.md) for specific AI workflows
+3. Use [Templates](template_docs/index.md) to scaffold new projects
+4. Follow [Standards](standards/index.md) for quality assurance
 
 !!! tip "Tool Orchestration Philosophy"
     **"No one tool does it all. Orchestrate a stack. Own your flow."**
@@ -60,4 +60,4 @@ Each project maintains independent lifecycle and GitHub presence while following
 
 ---
 
-Ready to get started? Head to [Methodologies](methodologies/_index.md) to explore the framework.
+Ready to get started? Head to [Methodologies](methodologies/index.md) to explore the framework.

@@ -49,4 +49,4 @@ Comprehensive planning and documentation capture knowledge and enable AI tools t
 
 ---
 
-Explore the [Methodologies](methodologies/_index.md) to start implementing these principles in your development workflow.
+Explore the [Methodologies](methodologies/index.md) to start implementing these principles in your development workflow.
