@@ -1,0 +1,33 @@
+name: Link Checker
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+jobs:
+  link-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out
+        uses: actions/checkout@v4
+      
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      
+      - name: Install MkDocs dependencies
+        run: |
+          pip install mkdocs-material mkdocs-minify-plugin mkdocs-awesome-pages-plugin pymdown-extensions
+      
+      - name: Build MkDocs site
+        run: mkdocs build --strict
+      
+      - name: Check links in built site
+        uses: lycheeverse/lychee-action@v1
+        with:
+          args: --verbose --no-progress --exclude-mail ./site/
+          fail: true

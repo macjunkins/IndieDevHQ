@@ -39,6 +39,14 @@ temp/
 .venv/
 venv/
 __pycache__/
+*.pyc
+*.pyo
+
+# MkDocs build output
+site/
+
+# Python package info
+*.egg-info/
 
 # Markdown preview caches (common in docs)
 .markdown-preview/
