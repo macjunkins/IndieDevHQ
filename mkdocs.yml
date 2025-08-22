@@ -1,0 +1,96 @@
+site_name: IndieDevHQ
+site_description: AI-Augmented Solo Developer Methodology Framework
+site_url: https://macjunkins.github.io/IndieDevHQ/
+repo_url: https://github.com/macjunkins/IndieDevHQ
+repo_name: macjunkins/IndieDevHQ
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.top
+    - navigation.sections
+    - content.code.copy
+    - content.tabs.link
+    - toc.follow
+    - search.suggest
+    - search.highlight
+  icon:
+    repo: fontawesome/brands/github
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/brightness-6
+        name: Switch theme
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - tables
+  - def_list
+  - footnotes
+  - attr_list
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+plugins:
+  - search
+  - awesome-pages
+  - minify:
+      minify_html: true
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/macjunkins/IndieDevHQ
+
+nav:
+  - Home: index.md
+  - About: about.md
+  - Methodologies:
+      - methodologies/_index.md
+  - Playbooks:
+      - playbooks/_index.md
+      - Prompting:
+          - Claude: playbooks/prompting/claude.md
+          - ChatGPT: playbooks/prompting/chatgpt.md
+          - Copilot: playbooks/prompting/copilot.md
+      - Coding:
+          - Small, Safe Refactors: playbooks/coding/refactor-small-changes.md
+          - AI Architecture Brainstorming: playbooks/coding/ai-arch-brainstorming.md
+  - Patterns:
+      - patterns/_index.md
+      - AI Integration Patterns: patterns/ai-integration-patterns.md
+      - Local vs Cloud AI: patterns/local-vs-cloud.md
+  - Templates:
+      - templates/_index.md
+      - Project:
+          - Tauri + Rust: templates/project/tauri-rust.md
+          - Swift App: templates/project/swift-app.md
+          - Web App: templates/project/web-app.md
+  - Automation:
+      - automation/_index.md
+      - Repo Setup: automation/repo-setup.md
+      - Doc Generation: automation/doc-generation.md
+      - GitHub Integration: automation/github-integration.md
+  - Standards:
+      - standards/_index.md
+      - Quality Checklist: standards/quality-checklist.md
+      - Documentation Standards: standards/documentation-standards.md
+  - Resources:
+      - resources/_index.md
+      - Toolchain: resources/toolchain.md
+      - Reading List: resources/reading-list.md
+  - Contribute: contribute.md
+  - Code of Conduct: code-of-conduct.md
+  - Roadmap: roadmap.md
