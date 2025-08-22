@@ -49,4 +49,5 @@ build/
 out/
 
 # GitHub Issue drafts
-.issue-drafts/
+.issue-drafts/# MKDocs build output
+site/
