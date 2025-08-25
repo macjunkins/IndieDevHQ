@@ -1,10 +1,10 @@
-# 📚 IndieDevHQ - AI-Augmented Development Knowledge Base
+# 📚 IndieDevHQ - Personal AI Development Reference
 
-> **Orchestrating a toolbox instead of forcing a single tool to do everything** - This is how modern solo developers thrive with AI assistance.
+> **No one tool does it all. Orchestrate a stack. Own your flow.**
 
 ## 🎯 Purpose
 
-This repository contains a **comprehensive knowledge base** for AI-augmented solo software development. It provides a minimal yet powerful document structure that guides AI-assisted development while avoiding excessive documentation overhead.
+John's personal reference and methodology for AI-augmented development. Provides systematic approaches to building applications (todge-tauri, ForgeDesk, etc.) with AI assistance while maintaining professional code quality and personal productivity.
 
 ## 🧠 Core Philosophy
 
@@ -100,29 +100,29 @@ IndieDevHQ now includes a complete automation suite for project initialization, 
 ./scripts/dev-metrics.py ~/Projects/MyApp            # Analytics dashboard
 ```
 
-### For New Users
-1. **Start with automation**: Try `./scripts/init-project.sh` to create your first IndieDevHQ project
-2. **Understand the philosophy**: Read [`01_Core_Workflow/workflow_overview.md`](01_Core_Workflow/workflow_overview.md)
-3. **Review AI integration**: Explore [`01_Core_Workflow/ai_workflow_integration_guide.md`](01_Core_Workflow/ai_workflow_integration_guide.md)
-4. **Check examples**: See [`Guides/practical_implementation_examples.md`](Guides/practical_implementation_examples.md) for real usage
-5. **Get help when needed**: Use [`Guides/troubleshooting_guide.md`](Guides/troubleshooting_guide.md) and [`FAQ.md`](FAQ.md)
+### Quick Reference
+1. **Project Initialization**: `./scripts/init-project.sh MyApp tauri ~/Projects` for new projects
+2. **Core Philosophy**: [`01_Core_Workflow/workflow_overview.md`](01_Core_Workflow/workflow_overview.md) for AI integration approach
+3. **AI Workflows**: [`01_Core_Workflow/ai_workflow_integration_guide.md`](01_Core_Workflow/ai_workflow_integration_guide.md) for systematic AI assistance
+4. **System Prompts**: [`01_Core_Workflow/prompts/`](01_Core_Workflow/prompts/) for specialized AI agents (Jenny, Jeff)
+5. **Quality Validation**: [`04_Quality_Security/repo_conformity_checklist.md`](04_Quality_Security/repo_conformity_checklist.md) for professional standards
 
-### For Specific Needs
+### Personal Workflow References
 
-#### Setting Up a New Project
-1. Review [`03_Implementation/starter_templates.md`](03_Implementation/starter_templates.md)
-2. Use [`05_Project_Management/project_template_system.md`](05_Project_Management/project_template_system.md)
-3. Apply [`04_Quality_Security/repo_conformity_checklist.md`](04_Quality_Security/repo_conformity_checklist.md)
+#### New Project Setup
+- [`03_Implementation/starter_templates.md`](03_Implementation/starter_templates.md) - Project scaffolding approaches
+- [`05_Project_Management/project_template_system.md`](05_Project_Management/project_template_system.md) - Template system usage
+- [`04_Quality_Security/repo_conformity_checklist.md`](04_Quality_Security/repo_conformity_checklist.md) - Quality validation
 
-#### Implementing AI Assistance
-1. Study [`01_Core_Workflow/ai_augmented_workflow.md`](01_Core_Workflow/ai_augmented_workflow.md)
-2. Apply [`01_Core_Workflow/conversation_best_practices.md`](01_Core_Workflow/conversation_best_practices.md)
-3. Integrate using [`06_API_Integration/`](06_API_Integration/) guides
+#### AI Development Integration  
+- [`01_Core_Workflow/ai_augmented_workflow.md`](01_Core_Workflow/ai_augmented_workflow.md) - AI assistance strategies
+- [`01_Core_Workflow/conversation_best_practices.md`](01_Core_Workflow/conversation_best_practices.md) - Effective AI prompting
+- [`06_API_Integration/`](06_API_Integration/) - API integration patterns
 
-#### Ensuring Quality & Security
-1. Implement [`04_Quality_Security/quality_assurance.md`](04_Quality_Security/quality_assurance.md)
-2. Follow [`04_Quality_Security/security_architecture.md`](04_Quality_Security/security_architecture.md)
-3. Validate with [`04_Quality_Security/repo_conformity_checklist.md`](04_Quality_Security/repo_conformity_checklist.md)
+#### Quality & Security Standards
+- [`04_Quality_Security/quality_assurance.md`](04_Quality_Security/quality_assurance.md) - QA processes
+- [`04_Quality_Security/security_architecture.md`](04_Quality_Security/security_architecture.md) - Security practices
+- Scripts for automated validation and conformity checking
 
 ## 🛠️ Enhanced Tool Stack
 
@@ -201,19 +201,13 @@ Vision / Requirements → User Stories → GitHub Issues
 - [ ] Create project-specific templates
 - [ ] Optimize AI integration
 
-## 🤝 Contributing
+## 🔄 Evolution & Maintenance
 
-This is a living knowledge base that evolves with practice and experience. Contributions that improve clarity, add useful patterns, or enhance the workflow are welcome.
-
-### How to Contribute
-1. Review existing documentation structure
-2. Identify gaps or improvements
-3. Follow the documentation standards
-4. Submit clear, well-documented updates
+Personal development infrastructure that evolves with project experience and AI tooling advances. Updated based on real usage patterns from building todge-tauri, ForgeDesk, and other applications.
 
 ## 📄 License
 
-This knowledge base is shared for the benefit of the solo developer community. Use, adapt, and share as needed for your projects.
+Personal development infrastructure and reference materials. Licensed for general use and adaptation.
 
 ## 🔗 Additional Resources
 
@@ -235,13 +229,10 @@ This knowledge base is shared for the benefit of the solo developer community. U
 
 ---
 
-**🎉 Phase 4 Integration Complete - IndieDevHQ is now a comprehensive, fully-automated development methodology with complete multi-platform support, extensive AI integration, and production-ready automation tools.**
+**Personal AI Development Infrastructure - Complete automation suite for productive solo development with AI assistance.**
 
-*Last Updated: August 11, 2025*
-
-*This repository represents a comprehensive framework for AI-augmented solo development, combining best practices, automation, and intelligent tool orchestration to maximize developer productivity and code quality.*
-
+*Focus: Building applications (todge-tauri, ForgeDesk, etc.) with systematic AI integration and professional code quality.*
 
 ---
 
-*Last updated: 2025-08-11*
+*Updated: August 2025*
