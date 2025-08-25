@@ -1,58 +1,60 @@
 # IndieDevHQ
 
-**AI-Augmented Solo Developer Methodology Framework**
+**Personal AI Development Infrastructure**
 
-A comprehensive community resource empowering indie developers to systematically integrate AI tools (Claude, ChatGPT, GitHub Copilot) as force multipliers while maintaining professional code quality and project organization standards.
+John's personal tooling and templates for AI-augmented development, focused on building useful applications (todge-tauri, ForgeDesk, etc.) with systematic AI integration while maintaining professional code quality.
 
-## 🚀 Current Status
+## 🚀 Purpose
 
-**Phase 3: Documentation Enhancement (MKDocs Implementation)**  
-Transforming into a professional, searchable documentation site for community adoption.
+**Personal AI Development Environment**: Custom agent workflows, project templates, and automation scripts for productive solo development with AI assistance.
 
-**📍 Repository:** https://github.com/macjunkins/IndieDevHQ  
-**🌐 Documentation Site:** https://macjunkins.github.io/IndieDevHQ/ *(coming soon)*
+**📍 Repository:** https://github.com/macjunkins/IndieDevHQ
 
-## Core Features
+## Core Components
 
-- **📚 Methodology Framework**: Comprehensive AI-augmented development workflows
-- **🎯 Project Templates**: Tauri, Swift, and web application scaffolding
-- **🤖 AI Integration Patterns**: Strategic workflows for leveraging AI assistance
-- **⚙️ Automation Scripts**: Repository setup, documentation generation, GitHub integration
-- **✅ Quality Standards**: Conformity validation and best practices enforcement
+- **🤖 AI Agent Workflows**: Custom system prompts for development assistance (business mentor, project manager)
+- **🎯 Project Templates**: Personal scaffolding for Tauri, Swift, and web applications
+- **⚙️ Automation Scripts**: Personal productivity tools for repository setup and project initialization
+- **📋 Development Templates**: GitHub issue templates and project structures for consistent workflow
+- **🔧 Personal Tools**: Quality validation and conformity checking for professional code standards
 
-## Technology Focus
+## Technology Stack
 
-**Primary**: Swift for Apple ecosystem, modern web frameworks  
-**Secondary**: Tauri + Rust for cross-platform desktop applications  
-**Documentation**: MKDocs with Material theme for professional community site  
-**Future**: Linux systems integration planned
+**Primary**: Swift for Apple ecosystem applications (ForgeDesk, Cashly)
+**Cross-platform**: Tauri + Rust for desktop applications (todge-tauri, phoenix-usb-flasher)  
+**Web**: Modern frameworks for project documentation and interfaces
+**AI Integration**: Claude, ChatGPT, and GitHub Copilot workflows
 
-## Documentation Structure
+## Repository Structure
 
-The repository is being transformed into a structured documentation site:
+Personal AI development infrastructure organized for productivity:
 
 ```
-docs/                    # Professional documentation site
-├── methodologies/       # Core development methodologies
-├── playbooks/          # AI prompting and coding playbooks
-├── patterns/           # AI integration patterns
-├── templates/          # Project scaffolding templates
-├── automation/         # Scripts and GitHub integration
-├── standards/          # Quality and conformity standards
-└── resources/          # Toolchain and community resources
+indie-dev-methodologies/     # AI workflows and personal development methodologies
+├── scripts/                 # Automation tools (project init, quality checks)
+├── templates/              # Project scaffolding and GitHub templates
+├── 01_Core_Workflow/       # AI integration patterns and system prompts
+└── [02-06]_*/              # Development processes and quality standards
 
-indie-dev-methodologies/ # Source methodology content
-dev-notebooks/          # Development notes (preserved)
-session-logs/           # Raw development logs (preserved)
+dev-notebooks/              # Personal development notes and IDE configurations
+github-issue-grab-guide.md  # Personal workflow for GitHub project management
 ```
 
-## Community Vision
+## Key Scripts & Tools
 
-IndieDevHQ serves as the definitive methodology framework for AI-augmented solo development, providing:
+Personal automation for efficient development workflow:
 
-- **Searchable Knowledge Base**: Professional documentation site with organized methodologies
-- **Copy-Ready Workflows**: One method per page with actionable steps
-- **Tool-Agnostic Patterns**: Focus on principles over specific tools
-- **Community Standards**: Consistent quality and contribution guidelines
+```bash
+# Initialize new projects with full setup
+./indie-dev-methodologies/scripts/init-project.sh MyApp tauri ~/Projects
 
-Each project maintains independent lifecycle and GitHub presence while following IndieDevHQ methodology patterns.
+# Validate repository quality and conformity  
+./indie-dev-methodologies/scripts/check-conformity.sh ~/Projects/MyApp
+
+# Set up GitHub repository with automation
+./indie-dev-methodologies/scripts/gh-automation.sh ~/Projects/MyApp MyApp public
+```
+
+**AI System Prompts**: Business mentor (Jenny) and project manager (Jeff) for specialized development assistance
+
+**Project Templates**: Scaffolding for consistent, professional project structure across Tauri, Swift, and web applications
